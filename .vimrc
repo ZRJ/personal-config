@@ -1,0 +1,12 @@
+:colorscheme desert
+:set number
+:set autoindent
+:set expandtab
+:set formatoptions=tcqro
+:set hlsearch
+:set tabstop=4
+:set softtabstop=4
+:set nowrap
+:set autowrite
+:set ignorecase
+:set encoding=utf-8

@@ -1,15 +1,30 @@
+" 配色方案
 colorscheme desert
+
+" 显示行号
 set number
+
+" 自动缩进
 set autoindent
+
+" 将 tab 展开成 4 个空格
 set expandtab
-set formatoptions=tcqro
-set hlsearch
 set tabstop=4
-set softtabstop=4
-set nowrap
-set autowrite
+
+" 换行时自动补全注释符号
+set formatoptions=tcqro
+
+" 高亮搜索，忽略大小写
+set hlsearch
 set ignorecase
+
+" 在切换文件时自动保存
+set autowrite
+
+" 设置文件保存编码
 set encoding=utf-8
+
+
 
 "首先自然是先去项目主页下载好插件。放到.vim/bundle目录中。可以使用以下命令安装：
 "$ git clone http://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
@@ -39,5 +54,8 @@ filetype plugin indent on
 
 "在vim里面输入:BundleInstall命令后Vundle就会自动帮你把所有的插件装好。而:BundleInstall!命令则会自动升级所有插件。
 
+
+
+" neocomplcache 配置项
 let g:neocomplcache_enable_at_startup = 1
 let g:neocomplcache_enable_auto_select = 1

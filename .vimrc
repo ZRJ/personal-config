@@ -43,6 +43,8 @@ set encoding=utf-8
 set tags=tags;
 set autochdir
 
+
+
 "首先自然是先去项目主页下载好插件。放到.vim/bundle目录中。可以使用以下命令安装：
 "$ git clone http://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 

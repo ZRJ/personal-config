@@ -10,3 +10,4 @@
 :set autowrite
 :set ignorecase
 :set encoding=utf-8
+let g:neocomplcache_enable_at_startup = 1

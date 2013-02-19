@@ -7,16 +7,31 @@ set number
 " 自动缩进
 set autoindent
 
+" 上下可视行数
+set scrolloff=6
+
 " 将 tab 展开成 4 个空格
 set expandtab
 set tabstop=4
+
+" 设定 << 和 >> 命令移动时的宽度为 4
+set shiftwidth=4
+
+" 设置按 BackSpace 的时候可以一次删除掉 4 个空格
+set softtabstop=4
 
 " 换行时自动补全注释符号
 set formatoptions=tcqro
 
 " 高亮搜索，忽略大小写
 set hlsearch
+
+" 搜索时忽略大小写，但在有一个或以上大写字母时仍大小写敏感
 set ignorecase
+set smartcase
+
+" 实时搜索
+set incsearch
 
 " 在切换文件时自动保存
 set autowrite

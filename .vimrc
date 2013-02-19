@@ -1,15 +1,15 @@
-:colorscheme desert
-:set number
-:set autoindent
-:set expandtab
-:set formatoptions=tcqro
-:set hlsearch
-:set tabstop=4
-:set softtabstop=4
-":set nowrap
-:set autowrite
-:set ignorecase
-:set encoding=utf-8
+colorscheme desert
+set number
+set autoindent
+set expandtab
+set formatoptions=tcqro
+set hlsearch
+set tabstop=4
+set softtabstop=4
+set nowrap
+set autowrite
+set ignorecase
+set encoding=utf-8
 
 "首先自然是先去项目主页下载好插件。放到.vim/bundle目录中。可以使用以下命令安装：
 "$ git clone http://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
